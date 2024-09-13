@@ -1,0 +1,46 @@
+*{
+    background-color: #0f0f0f;
+    color: aliceblue;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    user-select: none;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    background-color: transparent;
+}
+
+.number-container{
+    font-size: 1200%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+#listContainer{
+    font-size: small;
+    padding: 2%;
+    overflow-wrap: anywhere;
+    bottom: 0;
+    position: absolute;
+    z-index: 0;
+}
+
+.list-button{
+    background-color: black ;
+    border-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
